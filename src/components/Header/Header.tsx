@@ -1,3 +1,4 @@
+import CartButton from "./CartButton/CartButton";
 import { HeaderStyled } from "./Header.style";
 import Logo from "./Logo/Logo";
 import LogoText from "./LogoText/LogoText";
@@ -12,6 +13,7 @@ const Header = () => {
       </div>
       <div className="nav_bar_container">
         <NavBar />
+        <CartButton/>
       </div>
     </HeaderStyled>
   );

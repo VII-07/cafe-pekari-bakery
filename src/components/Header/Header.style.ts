@@ -15,5 +15,7 @@ export const HeaderStyled = styled.header`
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding-right: 22px;
+        padding-left: 22px;
     }
 `
