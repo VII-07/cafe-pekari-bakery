@@ -1,0 +1,2 @@
+export const HEADER_BACKGROUND_COLOR = '#FFF9F3';
+export const HEADER_BTN_COLOR = '#1E1E1E';
