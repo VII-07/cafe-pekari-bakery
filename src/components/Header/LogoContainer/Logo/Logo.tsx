@@ -1,5 +1,5 @@
-import { LogoStyled } from "./Logo.style";
-import LogoImg from "../../../assets/logo.svg";
+import { LogoStyled } from "./Logo.styled";
+import LogoImg from "../../../../assets/logo.svg";
 
 const Logo = () => {
     return ( 

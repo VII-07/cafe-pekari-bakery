@@ -1,4 +1,4 @@
-import { LogoTextStyled } from "./LogoText.style";
+import { LogoTextStyled } from "./LogoText.styled";
 
 const LogoText = () => {
     return ( 

@@ -5,9 +5,8 @@ export const CartButtonStyled = styled.button`
   background: #F6EBDA;
   border: 1px solid black;
   border-radius: 50%;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
-  font-size: 24px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -15,9 +14,12 @@ export const CartButtonStyled = styled.button`
   transition: all .3s ease-in-out;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(0.95);
   }
-
+  img{
+    width: 30x;
+    height: 30px;
+  }
   // Стиль для показу кількості товарів у кошику
   .cart-count {
     position: absolute;
@@ -26,7 +28,7 @@ export const CartButtonStyled = styled.button`
     background-color: red;
     color: white;
     border-radius: 50%;
-    padding: 5px 8px;
-    font-size: 12px;
+    padding: 3px 6px;
+    font-size: 10px;
   }
 `;

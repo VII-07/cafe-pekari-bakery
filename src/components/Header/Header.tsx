@@ -1,20 +1,12 @@
-import CartButton from "./CartButton/CartButton";
-import { HeaderStyled } from "./Header.style";
-import Logo from "./Logo/Logo";
-import LogoText from "./LogoText/LogoText";
-import NavBar from "./NavBar/NavBar";
+import { HeaderStyled } from "./Header.styled";
+import LogoContainer from "./LogoContainer/LogoContainer";
+import NavBarContainer from "./NavBarContainer/NavBarContainer";
 
 const Header = () => {
   return (
     <HeaderStyled>
-      <div className="logo__container">
-        <Logo />
-        <LogoText />
-      </div>
-      <div className="nav_bar_container">
-        <NavBar />
-        <CartButton/>
-      </div>
+      <LogoContainer/>
+      <NavBarContainer/>
     </HeaderStyled>
   );
 };
