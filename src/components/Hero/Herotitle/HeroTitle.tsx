@@ -5,7 +5,7 @@ import Image2 from '../../../assets/Vector.svg';
 
 const HeroTitle: React.FC = () => {
   return (
-    <div>  {/* Додаємо обгортку */}
+    <div>  
     <ImageContainer>
         <StyledImage src={Image1} alt="Фото 1" />
       </ImageContainer>

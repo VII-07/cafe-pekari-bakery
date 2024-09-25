@@ -5,6 +5,10 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: #c1a16d;
+
+  @media (max-width: 768px) {
+    
+  }
 `;
 
 
