@@ -8,10 +8,10 @@ export const ImageContainer = styled.div`
 `;
 
 export const StyledHeroTitle = styled.h1`
-  font-size: 49px;
+  font-size: 59px;
   line-height: 1.5em;
   color: #2B231D;
-  max-width: 800px;
+  max-width: 900px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   margin-left: 48px;

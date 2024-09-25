@@ -6,4 +6,8 @@ export const HeaderStyled = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: ${HEADER_BACKGROUND_COLOR};
+ 
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
