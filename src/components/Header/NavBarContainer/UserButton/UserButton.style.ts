@@ -12,8 +12,12 @@ export const UserButtonStyled = styled.button`
     &:hover {
     transform: scale(0.95);
   }
+  @media (max-width: 768px) {
+    display: none;
+  }
     img{
         width: 25px;
         height: 25px;
     }
+
 `
